@@ -19,11 +19,11 @@ BS in Computer Science 2023
 
 ## [Huffman Compressor/Decompressor](https://github.com/scoutings/Huffman)
 - Created a file compressor using the huffman compression algorithm.
-- Used low level system calls to read and write from files.
+- Implemented an I/O using buffering and wrappers wround low level system calls.
 
 ## [Forward Error Correction](https://github.com/scoutings/FEC)
 - Encoded and decoded messages using Hamming codes to correct any data transmission errors.
-- Used low level system calls to read and write from files.
+- Used bit operations to disect a message and encode/decode it with parity bits.
 
 ## [Firewall](https://github.com/scoutings/Bloomfilter)
 - Created a firewall to filter out and replace bad words from incomming text files.
